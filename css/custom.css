@@ -1,0 +1,33 @@
+.navbar.navbar-inverse {
+	background-color: #649c0d;
+	border-color: #6a8c35;
+}
+
+.navbar.navbar-inverse .navbar-nav>.active>a,
+.navbar.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar.navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: #8a2222;
+}
+.navbar.navbar-inverse .navbar-nav>li:hover {
+	background-color: #649C3E;
+}
+
+.navbar.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+ul.nav.navbar-nav {
+	float: right;
+}
+
+/* search */
+
+.search>span>button {
+	background-color: #66afe9;
+}
+
+.search>span>button:hover {
+    background-color: #649c0d;
+}
+
+/* /search */
