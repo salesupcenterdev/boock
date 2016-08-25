@@ -21,6 +21,11 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
+    <!-- slick -->
+    <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
+
+
     <!-- Custom styles for this template -->
     <link href="css/starter-template.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
@@ -83,10 +88,10 @@
           <div class="row">
             <div class="col-lg-3"></div>      
             <div class="col-lg-6">
-              <div class="input-group search">
+              <div class="input-group input-group-lg search">
                 <input type="text" class="form-control" placeholder="Search for...">
                 <span class="input-group-btn">
-                  <button class="btn btn-default" type="button">Go!</button>
+                  <button class="btn btn-default visib" type="button">Go!</button>
                 </span>
               </div><!-- /input-group -->
             </div><!-- /.col-lg-6 -->
@@ -94,27 +99,230 @@
           </div><!-- /.row -->
         </div>
 <!-- /search -->
-      </div>
-    </div>
 
 
 <!-- result -->
+<section class="padding-block show-cart">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2"></div> 
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 border-cart">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="product-chooser-item selected">
+            <img src="img/boock_lion.jpg" class="img-rounded col-xs-4 col-sm-4 col-md-4 col-lg-4" alt="Mobile and Desktop">
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+              <span class="title">Добро пожаловать! Вас приветствует магазин книг «Book Zone».</span>
+              <span class="description">Добро пожаловать! Вас приветствует магазин книг «Book Zone». Желающие смогут приобрести интересные, познавательные книги, посвященные популярным темам. Выбирая книжные магазины, рекомендуем рассмотреть варианты наших книг: Богатый выбор книжной продукции обеспечивает стабильный поток клиентов. Наш книжный интернет - магазин (Украина) имеет огромное количество литературы, включая наиболее востребованные материалы.</span>              
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2"></div>
+    </div>
+  </div> 
+</section>
 
-<!-- <div class="row">
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img data-src="" alt="...">
-      <div class="caption">
-        <h3>Ярлык эскиза</h3>
-        <p>ввввввввввввввввввввввввввввввввввв</p>
-        <p><a href="#" class="btn btn-primary" role="button">Кнопка</a> <a href="#" class="btn btn-default" role="button">Кнопка</a></p>
+<!-- /result -->
+
+
+<!-- result slide-->
+<section class="padding-block show-cart">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2"></div> 
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 border-cart">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="product-chooser-item selected sliders col-lg-6">
+
+            <ul id="photos">
+              <li id="photo-1" style="z-index: 3; position: absolute; display: list-item; opacity: 0.998459;"><a href="#p1"><img src="img/P10104022-940x430.jpg"></a></li>
+              <li id="photo-2" style="z-index: 2; position: absolute; display: none;"><a href="#p2"><img src="img/P10104261-940x430.jpg"></a></li>
+              <li id="photo-3" style="z-index: 1; position: absolute; display: list-item; opacity: 0.00154133;"><a href="#p3"><img src="img/P10104291-940x430.jpg"></a></li>
+            </ul>
+
+            <ul id="thumbs">
+              <li id="thumb-1" style="opacity: 0.713425;"><a href="#t1"><img src="img/P10104022-76x76.jpg"></a></li>
+              <li id="thumb-2" style="opacity: 0.6;"><a href="#t2"><img src="img/P10104261-76x76.jpg"></a></li>
+              <li id="thumb-3" style="opacity: 0.886575;"><a href="#t3"><img src="img/P10104291-76x76.jpg"></a></li>
+            </ul>
+
+
+          </div>
+           
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-6">
+              <h3 class="name-slide">NAME</h3>
+              <p class="title">Добро пожаловать! Вас приветствует магазин книг «Book Zone».</p>
+              <span class="description">Добро пожаловать! Вас приветствует магазин книг «Book Zone». Желающие смогут приобрести интересные, познавательные книги, посвященные популярным темам. Выбирая книжные магазины, рекомендуем рассмотреть варианты наших книг: Богатый выбор книжной продукции обеспечивает стабильный поток клиентов. Наш книжный интернет - магазин (Украина) имеет огромное количество литературы, включая наиболее востребованные материалы.</span>              
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2"></div>
+    </div>
+  </div> 
+</section>
+
+<!-- /result slide-->
+
+
+
+
+
+<!-- test2 -->
+<!-- <section class="padding-block">
+  <div class="container">  
+    <div class="row">
+      <div class="col-lg-2"></div>
+
+        <div class="col-lg-2">
+          <img class="featurette-image img-responsive center-block" alt="boock" src="img/boock_lion.jpg">
+        </div>
+  
+        <div class="col-lg-6">
+            <h2>Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+       
+      <div class="col-lg-2"></div>
+      
+    </div>
+  </div>
+</section> -->
+<!-- /test2 -->
+
+
+
+<!-- test3 -->
+
+<section class="cart-information show-cart">
+
+  <!-- <div class="container">
+    <div class="row">
+      <div class="slid col-lg-12">
+        <img src="http://lorempicsum.com/simpsons/350/200/1" alt="img slide" class="sl_img col-lg-5">
+        <div class="sl_text col-lg-7">
+          <h3 class="text_slide">1</h3>
+          <p class="autor">все издания</p>
+          <p class="sl_discription">Lorem ipsum dolor sit amet , consectetur adipiscing elit.</p>
+        </div>
+      </div>
+
+
+      <div class="slid col-lg-12">
+        <img src="http://lorempicsum.com/simpsons/350/200/2" alt="img slide" class="sl_img col-lg-5">
+        <div class="sl_text col-lg-7">
+          <h3 class="text_slide">2</h3>
+          <p class="autor">все издания</p>
+          <p class="sl_discription">Lorem ipsum dolor sit amet , consectetur adipiscing elit.</p>
+        </div>
+      </div>
+
+
+      <div class="slid col-lg-12">
+        <img src="http://lorempicsum.com/simpsons/350/200/3" alt="img slide" class="sl_img col-lg-5">
+        <div class="sl_text col-lg-7">
+          <h3 class="text_slide">3</h3>
+          <p class="autor">все издания</p>
+          <p class="sl_discription">Lorem ipsum dolor sit amet , consectetur adipiscing elit.</p>
+        </div>
+      </div>
+
+
+      <div class="slid col-lg-12">
+        <img src="http://lorempicsum.com/simpsons/350/200/4" alt="img slide" class="sl_img col-lg-5">
+        <div class="sl_text col-lg-7">
+          <h3 class="text_slide">4</h3>
+          <p class="autor">все издания</p>
+          <p class="sl_discription">Lorem ipsum dolor sit amet , consectetur adipiscing elit.</p>
+        </div>
+      </div>
+
+
+      <div class="slid col-lg-12">
+        <img src="http://lorempicsum.com/simpsons/350/200/5" alt="img slide" class="sl_img col-lg-5">
+        <div class="sl_text col-lg-7">
+          <h3 class="text_slide">5</h3>
+          <p class="autor">все издания</p>
+          <p class="sl_discription">Lorem ipsum dolor sit amet , consectetur adipiscing elit.</p>
+        </div>
+      </div>
+ -->
+
+<!-- <div class="col-lg-2"></div>
+ <div class="slider col-lg-8 ">
+  
+  <div class="block-media col-lg-5">
+    <div class="carousel-images slider-nav">
+      <div>
+        <img src="http://lorempicsum.com/simpsons/350/200/2" alt="1">
+      </div>
+      <div>
+        <img src="http://lorempicsum.com/simpsons/350/200/3" alt="2">
+      </div>
+      <div>
+        <img src="http://lorempicsum.com/simpsons/350/200/4" alt="3">
       </div>
     </div>
   </div>
+  
+
+  <div class="block-text col-lg-7">
+    <div class="carousel-text slider-for">
+      <div>
+        <span class="title">
+          Sed ut perspiciatis unde omnis iste natus error
+        </span>
+        <p class="headline">
+          Sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        </p>
+      </div>
+      <div>
+        <span class="title">
+          Nemo enim ipsam
+        </span>
+        <p class="headline">
+          Quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+        </p>
+      </div>
+      <div>
+        <span class="title">
+          Non provident, similique sunt in culpa
+        </span>
+        <p class="headline">
+          Officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+        </p>
+      </div>
+    </div>
+  </div>
+  
+
 </div>
+<div class="col-lg-2"></div>
+
+    </div>
+  
+  </div>
  -->
 
-<!-- /result -->
+
+</section>
+<!-- /test3 -->
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+
+
+
     
 
 
@@ -126,5 +334,20 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- slick -->
+    <!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
+
+    <!-- script -->
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <!-- sliders -->
+    <script type="text/javascript" src="js/jquery.xfade-1.0.min.js"></script>
+
+
+
+
+
+
   </body>
 </html>
